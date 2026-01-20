@@ -1,16 +1,56 @@
-# React + Vite
+# 🍢 Cardápio Online – Espetim do Nin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um **Cardápio Online** desenvolvido para facilitar a visualização dos produtos de um estabelecimento gastronômico, permitindo que clientes consultem itens, preços e descrições de forma rápida, simples e responsiva.
 
-Currently, two official plugins are available:
+O sistema foi criado com foco em **usabilidade**, **design moderno** e **acesso via dispositivos móveis**, ideal para uso em restaurantes, bares e lanchonetes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** – Biblioteca para construção da interface
+- **Vite** – Ferramenta de build rápida e moderna
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **ESLint** – Padronização e qualidade de código
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📱 Funcionalidades
+
+- 📋 Exibição de cardápio digital
+- 🍽️ Listagem de produtos com nome, descrição e preço
+- 📱 Layout responsivo (desktop e mobile)
+- ⚡ Carregamento rápido
+- 🎨 Interface simples e moderna
+
+---
+
+## 🖥️ Demonstração
+
+🔗 **Acesse o cardápio online:**  
+> https://espetim-do-ninn.vercel.app
+
+---
+
+## ⚙️ Como Executar o Projeto Localmente
+
+### Pré-requisitos
+- Node.js (versão 18 ou superior)
+- npm ou yarn
+
+### Passos
+
+```bash
+# Clone o repositório
+git clone (https://github.com/Aghelena/Espetim-do-nin)
+
+# Acesse a pasta do projeto
+cd Espetim-do-nin
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
